@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tile {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from the link */
+  color: #333; /* Set the color of the link text */
+  font-size: 18px; /* Set the font size of the link text */
+}
+
+.tile:hover {
+  background-color: #ddd; /* Change the background color on hover */
+}
+
